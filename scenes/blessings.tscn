@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://tstmu8rdl2iw"]
+
+[ext_resource type="Script" uid="uid://buwe10hmqhwsm" path="res://scripts/blessings_manager.gd" id="1_7ci3y"]
+
+[node name="Blessings" type="Node"]
+script = ExtResource("1_7ci3y")

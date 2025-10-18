@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="Loto" load_steps=2 format=3 uid="uid://dl5vom3tl54lp"]
+
+[ext_resource type="Script" uid="uid://bfny5qeec6j3k" path="res://scripts/res_loto.gd" id="1_hqouv"]
+
+[resource]
+script = ExtResource("1_hqouv")

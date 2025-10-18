@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3 uid="uid://5bhlkrpkyp7v"]
+
+[ext_resource type="PackedScene" uid="uid://tstmu8rdl2iw" path="res://scenes/blessings.tscn" id="1_ipgai"]
+[ext_resource type="Script" uid="uid://bkhc0wfwc7x1d" path="res://scripts/game_controller.gd" id="1_ts4rt"]
+[ext_resource type="PackedScene" uid="uid://dkh6yw6l0vlhe" path="res://scenes/lottery_manager.tscn" id="2_1yihr"]
+[ext_resource type="Resource" uid="uid://dl5vom3tl54lp" path="res://resources/lotos/default.tres" id="4_rc0pn"]
+[ext_resource type="PackedScene" uid="uid://c2ellt77ulbin" path="res://scenes/ticket.tscn" id="5_h843c"]
+
+[node name="Controller" type="Node"]
+script = ExtResource("1_ts4rt")
+loto = ExtResource("4_rc0pn")
+
+[node name="Blessings" parent="." instance=ExtResource("1_ipgai")]
+
+[node name="Lottery" parent="." instance=ExtResource("2_1yihr")]
+loto = ExtResource("4_rc0pn")
+
+[node name="Ticket" parent="." instance=ExtResource("5_h843c")]

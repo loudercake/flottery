@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkh6yw6l0vlhe"]
+
+[ext_resource type="Script" uid="uid://5kihnam4u62h" path="res://scripts/lottery_manager.gd" id="1_jhosl"]
+
+[node name="LotteryManager" type="Node"]
+script = ExtResource("1_jhosl")
