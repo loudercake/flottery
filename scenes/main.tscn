@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://2d0lguf72os0"]
 
 [ext_resource type="PackedScene" uid="uid://5bhlkrpkyp7v" path="res://scenes/game_controller.tscn" id="1_o5qli"]
-[ext_resource type="Texture2D" uid="uid://conj8v3mons4y" path="res://assets/baphomet.png" id="2_sugp2"]
-[ext_resource type="Texture2D" uid="uid://ft4prnea7pol" path="res://assets/aceupsleeve.png" id="3_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://butxrysolfb5k" path="res://assets/praying.png" id="4_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://conj8v3mons4y" path="res://assets/blessings/baphomet.png" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://ft4prnea7pol" path="res://assets/blessings/aceupsleeve.png" id="3_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://butxrysolfb5k" path="res://assets/blessings/praying.png" id="4_jyhfs"]
 
 [node name="Main" type="Control"]
 layout_mode = 3

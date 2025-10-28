@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://butxrysolfb5k"
-path="res://.godot/imported/praying.png-6c524feef0bec141e18a270e7dd407ac.ctex"
+uid="uid://conj8v3mons4y"
+path="res://.godot/imported/baphomet.png-47b921c563a6a42fe09aa97625ff5b8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/praying.png"
-dest_files=["res://.godot/imported/praying.png-6c524feef0bec141e18a270e7dd407ac.ctex"]
+source_file="res://assets/blessings/baphomet.png"
+dest_files=["res://.godot/imported/baphomet.png-47b921c563a6a42fe09aa97625ff5b8e.ctex"]
 
 [params]
 

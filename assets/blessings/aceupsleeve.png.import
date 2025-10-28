@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ft4prnea7pol"
-path="res://.godot/imported/aceupsleeve.png-0ab0a3517aab4382502955436bab4619.ctex"
+path="res://.godot/imported/aceupsleeve.png-20ec0c57b780b4dd702ce40d30e4d531.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/aceupsleeve.png"
-dest_files=["res://.godot/imported/aceupsleeve.png-0ab0a3517aab4382502955436bab4619.ctex"]
+source_file="res://assets/blessings/aceupsleeve.png"
+dest_files=["res://.godot/imported/aceupsleeve.png-20ec0c57b780b4dd702ce40d30e4d531.ctex"]
 
 [params]
 
