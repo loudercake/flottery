@@ -7,6 +7,8 @@ class_name Blessing
 
 @export_enum("Common", "Uncommon", "Rare") var rarity := 0
 
+signal modified_range(name: String, index: int)
+
 var activated := false
 var activation_amount := 1
 

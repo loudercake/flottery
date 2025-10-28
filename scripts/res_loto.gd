@@ -8,11 +8,11 @@ class_name Loto
 
 @export var numbers = 5
 @export var prizes : Dictionary[int,int]= {
-	1: 10,
-	2: 20,
-	3: 100,
-	4: 1000,
-	5: 5000
+	1: 100,
+	2: 500,
+	3: 1000,
+	4: 10000,
+	5: 50000
 }
 
 func get_number_range():

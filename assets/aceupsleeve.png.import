@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://conj8v3mons4y"
-path="res://.godot/imported/blessings1.png-08dae8890675eeadd4b1df7e9b053b26.ctex"
+uid="uid://ft4prnea7pol"
+path="res://.godot/imported/aceupsleeve.png-0ab0a3517aab4382502955436bab4619.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/blessings1.png"
-dest_files=["res://.godot/imported/blessings1.png-08dae8890675eeadd4b1df7e9b053b26.ctex"]
+source_file="res://assets/aceupsleeve.png"
+dest_files=["res://.godot/imported/aceupsleeve.png-0ab0a3517aab4382502955436bab4619.ctex"]
 
 [params]
 

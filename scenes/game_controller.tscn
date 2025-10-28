@@ -16,3 +16,5 @@ loto = ExtResource("4_rc0pn")
 loto = ExtResource("4_rc0pn")
 
 [node name="Ticket" parent="." instance=ExtResource("5_h843c")]
+
+[connection signal="blessing_trigger" from="Blessings" to="." method="_on_blessings_blessing_trigger"]

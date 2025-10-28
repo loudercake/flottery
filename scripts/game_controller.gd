@@ -17,3 +17,6 @@ func update_loto(resource: Loto):
 
 func _ready() -> void:
 	update_loto(loto)
+
+func _on_blessings_blessing_trigger(type: int, name: String, index: int) -> void:
+	pass # Replace with function body.

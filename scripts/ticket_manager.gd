@@ -11,8 +11,8 @@ func update_loto(resource: Resource):
 
 func check_against(loto_numbers: Array, ticket_numbers: Array) -> int:
 	var correct_numbers := 0
-	for i in range(0,loto_numbers.size()+1):
-		if loto_numbers[i] == ticket_numbers[i]:
+	for i in loto_numbers:
+		if ticket_numbers.has(i):
 			correct_numbers += 1
 	return correct_numbers
 
