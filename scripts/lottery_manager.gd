@@ -10,7 +10,7 @@ func update_loto(resource: Resource):
 	loto = resource
 
 func _ready() -> void:
-	print(full_lottery(loto.numbers,loto.get_number_range()))
+	numbers = full_lottery(loto.numbers, loto.get_number_range())
 
 func draw_random(number_range: Array, index: int) -> int:
 	var local_numbers = blessings.modify_range(number_range, index)

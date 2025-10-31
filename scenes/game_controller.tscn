@@ -11,10 +11,10 @@ script = ExtResource("1_ts4rt")
 loto = ExtResource("4_rc0pn")
 
 [node name="Blessings" parent="." instance=ExtResource("1_ipgai")]
+blessings = null
 
 [node name="Lottery" parent="." instance=ExtResource("2_1yihr")]
 loto = ExtResource("4_rc0pn")
 
 [node name="Ticket" parent="." instance=ExtResource("5_h843c")]
-
-[connection signal="blessing_trigger" from="Blessings" to="." method="_on_blessings_blessing_trigger"]
+loto = ExtResource("4_rc0pn")

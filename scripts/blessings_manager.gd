@@ -3,13 +3,15 @@ extends Node
 @export var blessings: Array[Blessing]
 
 enum BLESSING_TYPE {
-	RANGE_MODIFIED
+	RANGE_MODIFIED,
+	CARTELA_MODIFIED
 }
 
 signal blessing_trigger(type: BLESSING_TYPE, name: String, index: int)
 
 func  _ready() -> void:
-	add_blessing(preload("res://resources/blessings/aceupsleeve.tres"))
+	pass
+	# add_blessing(preload("res://resources/blessings/aceupsleeve.tres"))
 
 func add_blessing(blessing: Blessing):
 	blessings.append(blessing)
