@@ -4,6 +4,8 @@ extends Node
 
 @onready var lottery = $"../Lottery"
 
+signal reveal_number(number: int, style: LabelSettings)
+
 var numbers: Array
 
 func update_loto(resource: Resource):
@@ -24,4 +26,4 @@ func check_against(loto_numbers: Array) -> int:
 	return correct_numbers
 
 func earn_award(numbers_gotten: int):
-	Money.money += loto.prizes[numbers_gotten]
+	globals.money += loto.prizes[numbers_gotten]

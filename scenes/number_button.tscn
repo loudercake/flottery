@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cqaq5tu2j54kw" path="res://assets/ui/numbox.png" id="1_f1ayh"]
 [ext_resource type="Script" uid="uid://dcuwd3mciniyr" path="res://scripts/number_button.gd" id="2_2cqxa"]
-[ext_resource type="LabelSettings" uid="uid://dqgu1aadgtlw6" path="res://resources/number_style/gambling.tres" id="3_f1ayh"]
+[ext_resource type="LabelSettings" uid="uid://ct0lkumxheue4" path="res://resources/number_style/normal.tres" id="3_f1ayh"]
 
 [node name="numero" type="TextureButton"]
 offset_right = 32.0
@@ -20,7 +20,7 @@ offset_right = 32.0
 offset_bottom = 8.0
 grow_vertical = 2
 
-[node name="Label" type="Label" parent="CenterContainer"]
+[node name="label" type="Label" parent="CenterContainer"]
 texture_filter = 1
 layout_mode = 2
 text = "00"

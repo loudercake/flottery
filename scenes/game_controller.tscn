@@ -8,15 +8,13 @@
 
 [node name="Controller" type="Node"]
 script = ExtResource("1_ts4rt")
-loto = ExtResource("4_rc0pn")
 
 [node name="Blessings" parent="." instance=ExtResource("1_ipgai")]
-blessings = null
 
 [node name="Lottery" parent="." instance=ExtResource("2_1yihr")]
-loto = ExtResource("4_rc0pn")
 
 [node name="Ticket" parent="." instance=ExtResource("5_h843c")]
 loto = ExtResource("4_rc0pn")
 
+[connection signal="reveal_number" from="Blessings" to="." method="_on_blessings_reveal_number"]
 [connection signal="lottery" from="Lottery" to="." method="_on_lottery_lottery"]

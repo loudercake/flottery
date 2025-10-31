@@ -5,7 +5,10 @@ extends TextureButton
 signal number_checked(number: int)
 
 func _ready() -> void:
-	$CenterContainer/Label.text = str(number)
+	$CenterContainer/label.text = str(number)
 
 func _on_pressed() -> void:
 	emit_signal("number_checked", number)
+
+func change_style(style: LabelSettings):
+	$CenterContainer/label.label_settings = style
