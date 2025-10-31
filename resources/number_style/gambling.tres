@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://dqgu1aadgtlw6"]
+
+[ext_resource type="FontFile" uid="uid://dbdyh1hrfm88m" path="res://assets/fonts/gambling.ttf" id="1_a01o4"]
+
+[resource]
+font = ExtResource("1_a01o4")
+font_color = Color(0.64621824, 0.16330001, 0.71, 1)
+shadow_color = Color(0, 0, 0, 0.7294118)

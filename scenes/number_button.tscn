@@ -1,12 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dymuqrhbw3gu1"]
+[gd_scene load_steps=4 format=3 uid="uid://dymuqrhbw3gu1"]
 
 [ext_resource type="Texture2D" uid="uid://cqaq5tu2j54kw" path="res://assets/ui/numbox.png" id="1_f1ayh"]
 [ext_resource type="Script" uid="uid://dcuwd3mciniyr" path="res://scripts/number_button.gd" id="2_2cqxa"]
-[ext_resource type="FontFile" uid="uid://mx1ofkekarm7" path="res://normal.ttf" id="3_dw71q"]
-
-[sub_resource type="LabelSettings" id="LabelSettings_7dhgy"]
-font = ExtResource("3_dw71q")
-font_color = Color(1, 0.39999998, 0.39999998, 1)
+[ext_resource type="LabelSettings" uid="uid://ct0lkumxheue4" path="res://resources/number_style/normal.tres" id="3_f1ayh"]
 
 [node name="numero" type="TextureButton"]
 offset_right = 32.0
@@ -27,8 +23,8 @@ grow_vertical = 2
 [node name="Label" type="Label" parent="CenterContainer"]
 texture_filter = 1
 layout_mode = 2
-text = "41"
-label_settings = SubResource("LabelSettings_7dhgy")
+text = "00"
+label_settings = ExtResource("3_f1ayh")
 vertical_alignment = 2
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]

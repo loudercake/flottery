@@ -16,3 +16,11 @@ func populate_ticket(loto: Loto):
 
 func _pressed(num: int):
 	ticket_manager.add_number(num)
+
+func get_numbers() -> Array[Node]:
+	return get_children()
+
+func change_number_style(number: int, style: LabelSettings):
+	for node in get_numbers():
+		if node.number == number:
+			node.get_child(0).get_child(0).label_setting = style # i know this is bad please find it inyour heart to forgive me :(((((
