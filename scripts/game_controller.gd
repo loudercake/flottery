@@ -17,3 +17,7 @@ func update_loto(resource: Loto):
 
 func _ready() -> void:
 	update_loto(loto)
+
+
+func _on_lottery_lottery(numbers: Array) -> void:
+	print(numbers)
