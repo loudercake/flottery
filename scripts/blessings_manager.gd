@@ -12,7 +12,7 @@ signal blessing_trigger(type: BLESSING_TYPE, name: String, index: int)
 signal reveal_number(number: int, style: LabelSettings)
 
 func  _ready() -> void:
-	add_blessing(preload("res://resources/blessings/testreveal.tres"))
+	add_blessing(preload("res://resources/blessings/emptyprayer.tres"))
 
 func add_blessing(blessing: Blessing):
 	blessings.append(blessing)

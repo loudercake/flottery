@@ -1,8 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://2d0lguf72os0"]
+[gd_scene load_steps=3 format=3 uid="uid://2d0lguf72os0"]
 
 [ext_resource type="PackedScene" uid="uid://5bhlkrpkyp7v" path="res://scenes/game_controller.tscn" id="1_o5qli"]
 [ext_resource type="PackedScene" uid="uid://jvh21a66l2pj" path="res://scenes/ticket_ui.tscn" id="3_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://ujkxkwaqhmai" path="res://assets/ui/cartela.PNG" id="3_sugp2"]
 
 [node name="Main" type="Control"]
 layout_mode = 3
@@ -13,21 +12,6 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Controller" parent="." instance=ExtResource("1_o5qli")]
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.1875
-anchor_top = 0.0077160494
-anchor_right = 0.6041667
-anchor_bottom = 0.99537045
-offset_right = -384.0
-offset_bottom = -512.00006
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(7, 7)
-texture = ExtResource("3_sugp2")
-metadata/_edit_use_anchors_ = true
 
 [node name="cartela" parent="." instance=ExtResource("3_jyhfs")]
 layout_mode = 1

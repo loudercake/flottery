@@ -18,7 +18,7 @@ func _ready() -> void:
 	pass
 
 func _on_lottery_lottery() -> void:
-	await get_tree().create_timer(1).timeout
+	await get_tree().create_timer(0.01).timeout
 	get_blessings_node().reveal_numbers()
 
 func _on_blessings_reveal_number(number: int, style: LabelSettings) -> void:
