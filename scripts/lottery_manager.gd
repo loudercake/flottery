@@ -11,6 +11,11 @@ func _ready() -> void:
 func draw_random(number_range: Array, index: int) -> int:
 	var local_numbers = blessings.modify_range(number_range, index)
 	var num = local_numbers.pick_random()
+	if blessings.reroll_number(num):
+		print("alas")
+		var new_numbers = number_range
+		new_numbers.erase(num)
+		return draw_random(new_numbers, index)
 	return num
 
 func full_lottery(draws: int, number_range: Array):

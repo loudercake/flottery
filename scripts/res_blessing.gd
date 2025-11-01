@@ -17,8 +17,10 @@ func _modify_range(number_range: Array, index: int) -> Array:
 	return number_range
 
 func _reveal_number_ticket(number_range: Array):
-	print(number_range)
 	return
+
+func _reroll(number: int) -> bool:
+	return false
 
 func _reset():
 	activated = false

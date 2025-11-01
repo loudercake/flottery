@@ -6,22 +6,17 @@ extends Node
 
 signal reveal_number(number: int, style: LabelSettings)
 
-var numbers: Array
-
-func update_loto(resource: Resource):
-	loto = resource
-
 func reset_numbers():
-	numbers = []
+	globals.ticket_numbers = []
 
 func add_number(num: int):
-	if num not in numbers and len(numbers) < loto.numbers:
-		numbers.append(num)
+	if num not in globals.ticket_numbers and len(globals.ticket_numbers) < loto.numbers:
+		globals.ticket_numbers.append(num)
 
 func check_against(loto_numbers: Array) -> int:
 	var correct_numbers := 0
 	for i in loto_numbers:
-		if numbers.has(i):
+		if globals.ticket_numbers.has(i):
 			correct_numbers += 1
 	return correct_numbers
 

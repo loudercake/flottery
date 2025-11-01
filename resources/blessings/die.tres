@@ -1,0 +1,7 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://di6o03iqstaq"]
+
+[ext_resource type="Script" uid="uid://b4mul0rsy3uid" path="res://scripts/blessings/die.gd" id="1_g4q7c"]
+
+[resource]
+script = ExtResource("1_g4q7c")
+metadata/_custom_type_script = "uid://dgoftx4ldhou4"
